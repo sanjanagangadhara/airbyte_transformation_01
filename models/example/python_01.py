@@ -1,7 +1,6 @@
 import pandas as pd
 import json
 
-
 def model(dbt, session):
 
     df = dbt.ref("select_raw_table").to_pandas()
@@ -11,6 +10,6 @@ def model(dbt, session):
 
 
 
-    final_df = df["DATA"]
+    final_df = pd.DataFrame(df["DATA"])
 
     return final_df

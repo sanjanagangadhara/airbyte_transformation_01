@@ -10,6 +10,8 @@ models:
     config:
       materialized: table
       tags: ['python']
+      packages:
+        - "pandas"
 
     # Test the results of my Python transformation
     # columns:
