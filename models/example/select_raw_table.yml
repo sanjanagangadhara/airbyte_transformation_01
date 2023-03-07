@@ -1,0 +1,11 @@
+
+version: 2
+
+sources:
+  - name: RAW_BLOB_DATA
+    database: AIRBYTE_DATABASE
+    schema: AZURE_BLOB_SCHEMA
+
+    tables:
+      - name: FASTAPI # this is the table_name
+     
