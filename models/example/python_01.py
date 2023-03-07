@@ -3,6 +3,11 @@ import json
 
 def model(dbt, session):
 
+    dbt.config(
+        materialized = "table",
+        packages = ["pandas"]
+    )
+
     df = dbt.ref("select_raw_table").to_pandas()
 
     
