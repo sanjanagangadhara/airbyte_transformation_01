@@ -1,0 +1,8 @@
+version: 2
+models:
+  - name: python_01      
+    config:
+        materialized: table      
+        tags: ['python']
+        packages:
+          - "pandas"
