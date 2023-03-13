@@ -6,4 +6,3 @@ models:
         tags: ['python']
         packages:
           - "pandas"
-          - "json"
