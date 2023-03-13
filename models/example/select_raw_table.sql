@@ -6,4 +6,4 @@ final_01 as
 
 (    select * from source)
 
-select * from final_01
+select DATA from final_01 ORDER BY _AIRBYTE_EMITTED_AT  
