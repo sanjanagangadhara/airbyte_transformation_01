@@ -1,6 +1,6 @@
 version: 2
 models:
-  - name: python_01      
+  - name: python_02     
     config:
         materialized: table      
         tags: ['python']

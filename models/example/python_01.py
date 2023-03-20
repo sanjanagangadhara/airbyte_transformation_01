@@ -1,6 +1,6 @@
 import pandas as pd
 import json
-import logging
+
 
 def model(dbt, session):
 
